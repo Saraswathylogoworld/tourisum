@@ -1,0 +1,207 @@
+*{
+    font-family: "Sedan SC", serif;
+    font-style: normal;
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    /* box-sizing: border-box; */
+}
+.container{
+    width: 100%;
+    position: relative;
+}
+.Main{
+    height: 50rem;
+    background-image: url('https://w0.peakpx.com/wallpaper/300/1012/HD-wallpaper-paper-boat-globe-travel-concepts-earth-tourism.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    justify-content: space-between;
+    background-position: center;
+    
+
+}
+@media (max-width:600px){
+    .icon{
+        display: none;
+    }
+    .Main{
+        background-position: bottom;
+    }
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    width: 85%;
+    align-items: center;/*to vertically plce child element*/
+}
+ul li{
+    display: inline;
+    margin: 10px 10px 10px 8px;
+    align-items: auto;
+  
+}
+.navbar a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 10px 10px 8px;
+}
+.link a:hover{
+    color: rgb(235, 7, 7);
+}
+
+.last_name{
+    color: orange;
+}
+.title{
+    margin-left: 8%;
+    margin-top: 11%;
+}
+.title_name{
+    font-size: 60px;
+    font-weight: 400;
+}
+.title p{
+    margin-top: 9px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 95%;
+    width: 55%;
+}
+
+#about{
+    margin: 8% 8% 0px 9%;
+}
+.about-heading{
+    text-align: center;
+}
+.abouth2{
+    font-size: 32px;
+    font-weight: 400px;
+
+}
+.intro{
+    font-size: 25px;
+    color: green;
+    font-weight: 400;
+}
+.about-img img{
+    width:80%;
+    height: auto;
+}
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    gap: 10px;
+}
+.about-details{
+    font-size: 18px;
+    text-align: justify;
+}
+.information{
+    margin-top: 20pxs;
+}
+.each-info{
+    margin-top: 15px;
+}
+.infospan{
+    margin-left: 15px;
+}
+
+div.gallery {
+    margin: 15px;
+    border: 2px solid #ccc;
+    float: left top right bottom 50px;
+    width: 180px;
+    margin: 50px 30px 30px 55px;
+  }
+  
+  div.gallery:hover {
+    border: 2px solid #ef5cbb;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    margin-top: 10px;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 20px;
+    text-align: center;
+  }
+div .gallery .row{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin: 20px;
+}  
+
+.contact-heading{
+    margin-top: 50pxs;
+    text-align: center;
+}
+.each-icon:hover{
+    background-image: linear-gradient(to bottom right ,rgb(70, 245, 16),red);
+}
+.each-icon:hover i{
+    color: white;
+    animation: shake 0.75s;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+}
+
+.icon-set {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    align-items: center;
+}
+.each-icon ,.up-arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.each-icon i{
+    font-size: 30px;
+    color: rgb(6, 6, 6);
+}
+.bottom-footer{
+    margin-top: 100px;
+    text-align: center;
+    margin: 3rem 0px;
+        
+}
+.up-arrow {
+    float: right;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right ,yellow,rgb(191, 0, 255));
+    margin: 0px 10px 50px 0px;
+}
+.up-arrow i{
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.up-arrow:hover {
+    animation: shake 0.75s;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    background-color: rgb(242, 235, 239);
+}
