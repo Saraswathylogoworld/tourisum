@@ -205,3 +205,18 @@ html{
 .container{
     background-color: rgb(242, 235, 239);
 }
+#tour a{
+    /* background-color: #ecb70b; */
+    text-decoration: none;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right ,rgb(247, 192, 12),rgb(191, 0, 255));
+    float: center;
+    margin: 25px 0px 10px 0px;
+    background-attachment: fixed;  
+    justify-content: space-around;
+    background-position: center;
+    border: 50px;
+}
+#tour .row w3-card-img-4{
+    height: 9rem;
+}
